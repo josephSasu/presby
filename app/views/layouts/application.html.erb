@@ -26,26 +26,30 @@
     <ul class="nav navbar-nav navbar-right">
 				<li role="presentation" class="active"><%= link_to "Home", "#" %></li>
 				
-        <li class="dropdown">
-        <a data-toggle="dropdown"  role="button" aria-expanded="false">About<span class="caret"></span> <a/>
-          <ul class="dropdown-menu navbar-right">
-              <li><%= link_to "Brief History", "#" %></li>
-						  <li><%= link_to "Expansion", "#" %></li>
+				<li class="dropdown">
+      	     <a data-toggle="dropdown"  role="button" aria-expanded="false">About<span class="caret"></span> </a>
+          		<ul class="dropdown-menu dropdown-menu-right role="menu" aria-labelledby="dLabel">
+            	  <li class="dropdown"><%= link_to "Brief History", "#" %></li>
+						    <li class="dropdown"><%= link_to "Expansion", "#" %></li>
               <li><%= link_to "Birth of the church" %></li>
 						  <li><%= link_to "Presbytors", "#" %></li>
 						  <li><%= link_to "Agents", "#" %></li>
               <li><%= link_to "Formation of various group" %></li>
-          </ul>
-        </li>
+              	</li>
+              </ul>	
+				   </li>
+				
+        
+      
 				<li class="dropdown">
-      	     <a data-toggle="dropdown"  role="button" aria-expanded="false">Groups<span class="caret"></span> <a/>
+      	     <a data-toggle="dropdown"  role="button" aria-expanded="false">Groups<span class="caret"></span> </a>
           		<ul class="dropdown-menu navbar-right">
             	  <li class="dropdown"><%= link_to "GENERATIONAL GROUP", "#" %>
               	</li>
               </ul>	
 				   </li>
         <li class="dropdown">			
-			  <a data-toggle="dropdown"  role="button" aria-expanded="false">Activities<span class="caret"></span> <a/>
+			  <a data-toggle="dropdown"  role="button" aria-expanded="false">Activities<span class="caret"></span> </a>
           	<ul class="dropdown-menu nav navbar-right">
 							<li class="dropdown"><%= link_to "Monthly Activities", "#" %></li>
 							<li class="dropdown"><%= link_to "Week Activities", "#" %></li>
@@ -53,8 +57,8 @@
 			  </li>	   
 				 
 				<li class="dropdown">			
-			  <a data-toggle="dropdown"  role="button" aria-expanded="false">Gallery<span class="caret"></span> <a/>
-          <ul class="dropdown-menu nav navbar-right">
+			  <a data-toggle="dropdown"  role="button" aria-expanded="false">Gallery<span class="caret"></span> </a>
+          <ul class="dropdown-menu navbar-right">
 				    <li><%= link_to "Photo", "#" %></li>
 				    <li><%= link_to "Video", "#" %></li>
 				  </ul>
