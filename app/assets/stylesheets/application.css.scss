@@ -13,11 +13,20 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import 'slick';
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
-body {
+body,
+.jumbotron{
     background: #FDF3E7;
 }
+
+.small
+ {
+    font-size: 28px;
+}
+
+
 
 .logo {
     margin: 0px;
@@ -37,3 +46,7 @@ body {
     background: #fff;
 }
 
+.footer {
+    background: #393939;
+    color: #fff;
+}

@@ -37,16 +37,60 @@
  
 <div class="container">
 	
-	<div class=jumbotron>
-		<h2 class="text-center">BIBLE QUOTE</h2>
-		<p>God writes the Gospel not in the Bible alone, but also on trees, and in the 
-		flowers and clouds and stars.</p>
-		<p>Martin Luther</p>
+		<div class="text-center">
+			<h3><strong>BIBLE QUOTE<br><i class="fa fa-minus"></i></strong></h3>
+			<br>
+			<p class="small"><i class="fa fa-quote-left"></i>  God writes the Gospel not in the Bible alone, but also on trees, and in the 
+			flowers and clouds and stars. </p>
+			<p>Martin Luther   <i class="fa fa-quote-right"></i></p>
+		</div>
+		
+</div>
+
+<div class="row" id="bg">
+	<div class="container">
+		<div>
+  		<h3 class="text-center"><strong>GROUPS<br><i class="fa fa-minus"></i></strong></h3><br>
+  	</div>
+	
+	<div class="col-md-4">
+	<h4 class="text-center"><strong>MEN'S FELLOWSHIP</strong></h4>
+	
+	<p><%= image_tag"logos/new.png", class: 'imag' %>We give to the good lord who inspired the faithful twelve who 
+	gathered on the 20th September 1981 in the children’s service hall at the old site to begin the Emmanuel <a href="#">Read more</a> </p> 
+	
 	</div>
+	  
+	<div class="col-md-4">
+	    
+	    <h4 class="text-center"><strong>WOMEN'S FELLOWSHIP</strong></h4>
+	    <p><%= image_tag "logos/women.png", class: 'imag' %>To God be the glory for great things He has done. Amen. The Dansoman
+	    Emmanuel Congregation Women’s Fellowship was started on 18th May, 1975 with 18 members. It was the first group to be formed 
+	    in the church ehich has been established about six months earlier on December <a href="#">Read more</a> </p>
+	    
+	    
+  	</div>
+	  
+	<div class="col-md-4">
+		
+		<h4 class="text-center"><strong>YOUNG ADULT FELLOWSHIP</strong></h4>
+	      
+
+<p><%= image_tag"logos/yaf.png", class: 'imag' %>The 2005 General Assembly held in Kumasi at the Kwame Nkrumah University of 
+Science and Technology(KNUST) decided that a new group should be formed in all the congregations of the Presbyterian Church of 
+Ghana. People to belong to this new group were to be members of the church who were between the ages of 30-40 years. <a href="#">Read more</a></p>
+
+	  </div>
+	  
+	</div>
+</div>
+	
 	
  <div class="row">
+ 		<div class="container">
   		<div>
   			<h3 class="text-center"><strong>OUR GALLERY</strong></h3>
+  			
   	 	</div>
   	
 	<div class="col-xs-6 col-md-4">
@@ -86,54 +130,31 @@
 	</div>
 </div>
 
-
-
-<div class="row" id="bg">
-
-
-	
-	<div>
-  		<h3 class="text-center"><strong>GROUPS</strong></h3>
-  	</div>
-	
-	<div class="col-md-4">
-	<h4 class="text-center"><strong>MEN'S FELLOWSHIP</strong></h4>
-	
-	<p><%= image_tag"logos/new.png", class: 'imag' %>We give to the good lord who inspired the faithful twelve who 
-	gathered on the 20th September 1981 in the children’s service hall at the old site to begin the Emmanuel <a href="#">Read more</a> </p> 
-	
-	</div>
-	  
-	<div class="col-md-4">
-	    
-	    <h4 class="text-center"><strong>WOMEN'S FELLOWSHIP</strong></h4>
-	    <p><%= image_tag "logos/women.png", class: 'imag' %>To God be the glory for great things He has done. Amen. The Dansoman
-	    Emmanuel Congregation Women’s Fellowship was started on 18th May, 1975 with 18 members. It was the first group to be formed 
-	    in the church ehich has been established about six months earlier on December <a href="#">Read more</a> </p>
-	    
-	    
-  	</div>
-	  
-	<div class="col-md-4">
-		
-		<h4 class="text-center"><strong>YOUNG ADULT FELLOWSHIP</strong></h4>
-	      
-
-<p><%= image_tag"logos/yaf.png", class: 'imag' %>The 2005 General Assembly held in Kumasi at the Kwame Nkrumah University of 
-Science and Technology(KNUST) decided that a new group should be formed in all the congregations of the Presbyterian Church of 
-Ghana. People to belong to this new group were to be members of the church who were between the ages of 30-40 years. <a href="#">Read more</a></p>
-
-	  </div>
-	  
 </div>
 
-
-
-
-	<div class="row col-md-6" id="bg">
-		<div class="col-md-6">
-			<h4>About Our Church</h4>
-			<p>TO BE A CHRIST-CENTRED, EVANGELISTIC, DISCIPLINED, DEMOCRATIC, UNITED,SELF-SUSTAINING AND GROWING CHURCH</p>
+<div class="footer">
+		<div class="container">
+			<div class="col-md-4">
+				<h4>ABOUT THE CHURCH</h4>
+				<p>TO BE A CHRIST-CENTRED, EVANGELISTIC, DISCIPLINED, DEMOCRATIC, UNITED,SELF-SUSTAINING AND GROWING CHURCH</p>
+			</div>
+			
+			<div class="col-md-4">
+					<h4>ADDRESS</h4>
+					<p>Location: Dansoman-Sahara Postal <br>Address: P. O. Box DS 91 Accra-Ghana 
+					<br>
+					<br>
+					Phone: 0302301626 / 0302318726<br>
+					Email: dansoman@gapresbytery.org <br></p>
+			</div>
+			
+			<div class="col-md-4">
+				<h4>USEFUL LINKS</h4>
+				<ul>
+					<li><%= link_to "Presbyterian Church of Ghana", "http://www.pcgonline.org" %></li>
+					<li><%= link_to "Ga Presbyterian", "http://www.gapresbytery.org" %></li>
+					<li><%= link_to "Hope Presbyterian", "http://www.hopepresby.org" %></li>
+				</ul>
+			</div>
 		</div>
-	</div>
 </div>
