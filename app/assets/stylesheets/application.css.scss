@@ -48,5 +48,37 @@ body,
 
 .footer {
     background: #393939;
-    color: #fff;
+    color: #FDF3E7;
+    padding-bottom: 50px;
+}
+
+.footer2{
+    background: #000;
+    color: #FDF3E7;
+}
+
+.footer  ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    }
+    
+.footer li {
+     border-bottom-style: solid;
+}
+
+.footer li a{
+    text-decoration: none;
+    line-height: 2em;
+    color:#FDF3E7;
+}
+
+.footer li a:hover,
+.footer li a:focus{
+    color: #FFA500;
+}
+
+.fa-facebook-square {
+    border-bottom-style: none;
+    font-size: 20px;
 }
